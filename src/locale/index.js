@@ -42,7 +42,7 @@ const setLanguageToI18n = () => {
   );
   iHaveThisLanguage
     ? (I18n.locale = translateNormalize)
-    : (I18n.defaultLocale = "en_US");
+    : (I18n.defaultLocale = "pt_BR");
 };
 
 setLanguageToI18n();
